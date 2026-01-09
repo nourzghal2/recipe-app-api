@@ -1,8 +1,6 @@
 [flake8]
-max-line-length = 120
-exclude = 
-    .git,
+exclude =
+    migrations,
     __pycache__,
-    */migrations/*,
-    venv,
-    env
+    manage.py,
+    settings.py
